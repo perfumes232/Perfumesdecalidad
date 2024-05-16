@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Fragancias del Mundo</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #555;
+    color: #fff;
+}
+
+#productos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promocion {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#historia {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+}
+
+.historia-gucci,
+.historia-one-million,
+.historia-tomy-gilf {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}</style></head> 
+ <body> 
+  <header> 
+   <h1>Fragancias del Mundo</h1> 
+   <nav> 
+    <ul> 
+     <li><a href="#inicio">Inicio</a></li> 
+     <li><a href="#productos">Productos</a></li> 
+     <li><a href="#contacto">Contacto</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <section id="inicio"> 
+   <div class="hero"> 
+    <h2>Bienvenido a Fragancias del Mundo</h2> 
+    <p>Descubre una amplia gama de perfumes de alta calidad para cada ocasión.</p> 
+   </div> 
+  </section> 
+  <section id="productos"> 
+   <h2>Nuestros Productos</h2> 
+   <div class="productos-container"> 
+    <div class="producto gucci"> 
+     <img src="gucci-perfume.jpg" alt="Gucci Perfume"> 
+     <h3>Gucci</h3> 
+     <p>Fragancia elegante y sofisticada.</p> 
+     <p><strong>Año de lanzamiento:</strong> 2002</p> 
+    </div> 
+    <div class="producto one-million"> 
+     <img src="one-million-perfume.jpg" alt="One Million Perfume"> 
+     <h3>One Million</h3> 
+     <p>Fragancia fresca y seductora.</p> 
+     <p><strong>Año de lanzamiento:</strong> 2008</p> 
+    </div> 
+    <div class="producto tomy-gilf"> 
+     <img src="tomy-gilf-perfume.jpg" alt="Tomy Gilf Perfume"> 
+     <h3>Tomy Gilf</h3> 
+     <p>Fragancia juvenil y moderna.</p> 
+     <p><strong>Año de lanzamiento:</strong> 1994</p> 
+    </div> 
+   </div> 
+   <div class="promocion"> 
+    <h2>Promoción Especial</h2> 
+    <p>¡Recuerda! En la compra de un paquete de $1000 pesos, llévate 5 perfumes con envío gratis.</p> 
+   </div> 
+  </section> 
+  <section id="historia"> 
+   <h2>Historia de los Perfumes</h2> 
+   <div class="historia-gucci"> 
+    <img src="gucci-logo.jpg" alt="Gucci Logo"> 
+    <h3>Gucci</h3> 
+    <p>Gucci es una marca italiana de moda fundada por Guccio Gucci en Florencia en 1921.</p> 
+    <p>El primer perfume de Gucci, "Gucci No. 1", fue lanzado en 1974.</p> 
+   </div> 
+   <div class="historia-one-million"> 
+    <img src="one-million-logo.jpg" alt="One Million Logo"> 
+    <h3>One Million</h3> 
+    <p>One Million es una fragancia de Paco Rabanne lanzada en 2008.</p> 
+    <p>Es conocida por su aroma dulce y duradero, dirigido a hombres jóvenes y seductores.</p> 
+   </div> 
+   <div class="historia-tomy-gilf"> 
+    <img src="tomy-gilf-logo.jpg" alt="Tomy Gilf Logo"> 
+    <h3>Tomy Gilf</h3> 
+    <p>Tomy Gilf es una marca de perfumes conocida por sus fragancias juveniles y modernas.</p> 
+    <p>La primera fragancia de Tomy Gilf fue lanzada en 1994 y desde entonces ha sido un éxito entre los jóvenes.</p> 
+   </div> 
+  </section> 
+  <section id="contacto"> 
+   <h2>Contacto</h2> 
+   <p>Ponte en contacto con nosotros para más información:</p> 
+   <form id="contact-form"> 
+    <input type="text" placeholder="Nombre" required> 
+    <input type="email" placeholder="Correo electrónico" required> <textarea placeholder="Mensaje" required></textarea> <button type="submit">Enviar</button> 
+   </form> 
+  </section> 
+  <footer> 
+   <p>© 2024 Fragancias del Mundo</p> 
+  </footer> 
+  <script src="script.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">// Función para cambiar el color de fondo al hacer clic en un botón
+function cambiarColorFondo() {
+    // Obtener el cuerpo de la página
+    var body = document.body;
+
+    // Generar un color aleatorio
+    var colores = ["#FF5733", "#33FF6B", "#3396FF", "#FF33E9", "#FFBD33"];
+    var colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+
+    // Cambiar el color de fondo del cuerpo de la página
+    body.style.backgroundColor = colorAleatorio;
+}
+
+// Función para mostrar más información sobre un perfume
+function mostrarInformacionPerfume(perfume) {
+    // Aquí puedes implementar el código para mostrar información detallada sobre el perfume seleccionado
+    // Por ejemplo, podrías mostrar una ventana modal con detalles adicionales o navegar a una página de detalles
+    alert("¡Has seleccionado el perfume " + perfume + "! Pronto mostraremos más información sobre este perfume.");
+}</script></body></html>
